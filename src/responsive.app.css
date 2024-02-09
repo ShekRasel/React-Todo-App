@@ -1,0 +1,41 @@
+@media screen and (max-width: 400px) {
+    .TodoCard{
+        height: 500px;
+        width: auto;
+    }
+    .Header{
+        margin-top: 20px;
+    }
+    form{
+        width: 300px;
+        margin:auto;
+        gap: 20px;
+        display: flex;
+    }
+    form input{
+        font-size: 14px;
+        padding-left: 10px;
+        flex-basis: 80%;
+    }
+    form button{
+        width: 120px;
+        font-size: 12px;
+        flex-basis: 20%;
+        outline: none;
+        background-color: rgb(11, 223, 152);
+    }
+    .outsider ul li{
+        padding: 8px;
+        font-size: 14px;
+
+    }
+    .outsider{
+        width: 300px;
+    }
+    .outsider ul li span{
+        right: 60px;
+        font-size: 18px;
+       color: rgb(255, 0, 0);
+    }
+}
+
